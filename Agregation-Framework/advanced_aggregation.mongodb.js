@@ -34,7 +34,7 @@ db.sales.insertMany([
       }
     }
   ]);
-  
+  use("biblioteca");
   // $facet: Process multiple pipelines within a single stage
   db.sales.aggregate([
     {
